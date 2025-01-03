@@ -74,7 +74,7 @@ app.get('/second_page', (req, res) => {
     <script>
       setTimeout(function() {
         window.location.href = "${redirectUrl}";
-      }, 3000);  // Redirect after 3 seconds
+      }, 100);  // Redirect after 3 seconds
     </script>
   `);
 });
