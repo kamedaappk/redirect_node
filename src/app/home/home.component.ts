@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent implements OnInit {
-  redirectUrl: string = 'https://www.google.com'; // Default URL if nothing is stored in localStorage
+  redirectUrl: string = 'https://cpandp01.vercel.app/home'; // Default URL if nothing is stored in localStorage
   isEditing: boolean = false; // Flag to check if we're in the editing state
 
   constructor(private router: Router) {}
