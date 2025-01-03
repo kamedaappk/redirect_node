@@ -1,0 +1,8 @@
+<div class="home-container">
+    <h1 *ngIf="isEditing">Edit Redirect URL</h1>
+    <input *ngIf="isEditing" type="text" [(ngModel)]="redirectUrl" placeholder="Enter new URL" />
+    <button *ngIf="isEditing" (click)="updateRedirectUrl()">Save URL</button>
+  
+    <p><a routerLink="/logs">View Logs</a></p> <!-- Link to view logs -->
+  </div>
+  
